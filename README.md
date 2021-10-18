@@ -23,7 +23,7 @@ For now, working code is better than reusable code. Refactoring time will come w
 Each of the items in the list have a suggested file where such functionality should be added.
 
 - [ ] DBN01 - Create structure for storing DAGs (DAG.jl)\
-        DAG -> Dictionary {nodes: }
+        DAG -> LightGraphs* (https://nbviewer.org/github/JuliaGraphs/JuliaGraphsTutorials/blob/master/DAG-Julia-Pkgs.ipynb)
 
 - [ ] DBN02 - Create structure for storing Conditional Probability Tables (CPT.jl)
 
