@@ -22,14 +22,15 @@ For now, working code is better than reusable code. Refactoring time will come w
 
 Each of the items in the list have a suggested file where such functionality should be added.
 
-- [ ] DBN01 - Create structure for storing DAGs (DAG.jl)
+- [ ] DBN01 - Create structure for storing DAGs (DAG.jl)\
         DAG -> Dictionary {nodes: }
 
 - [ ] DBN02 - Create structure for storing Conditional Probability Tables (CPT.jl)
-- [ ] DBN03 - Create structure for storing Bayesian Networks as DAG as CPT pairs (BayesianNetwork.jl)
-        BN: Dictonary {nodes: cpt} 
-        nodes [list of nodes], last position indicate destiny, nodes: [a, b] indicate a->b
-        CPT (matrix or list of list) head of matrix are the parents and rows are the destiny node
+
+- [ ] DBN03 - Create structure for storing Bayesian Networks as DAG as CPT pairs (BayesianNetwork.jl)\
+        BN: Dictonary {nodes: cpt} \
+        nodes [list of nodes], last position indicate destiny, nodes: [a, b] indicate a->b\
+        CPT (matrix or list of list) head of matrix are the parents and rows are the destiny node\
 
 
 - [ ] DBN04 - Create functions for basic BN inference (BayesianNetwork.jl)
