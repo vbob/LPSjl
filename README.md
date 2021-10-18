@@ -31,6 +31,7 @@ Each of the items in the list have a suggested file where such functionality sho
         BN: Dictonary {nodes: cpt} \
         nodes [list of nodes], last position indicate destiny, nodes: [a, b] indicate a->b\
         CPT (matrix or list of list) head of matrix are the parents and rows are the destiny node\
+        it could be used as dataframe? Problem is each edge will be a dataframe
 
 
 - [ ] DBN04 - Create functions for basic BN inference (BayesianNetwork.jl)
