@@ -53,3 +53,5 @@ Future:
 * Learn BNs from timestamped data
 * Matthews Correlation Coefficient
 * Algorithm for combining BNs with MCMC
+
+* LightGraphs lets wait what will come
