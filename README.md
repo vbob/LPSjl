@@ -33,6 +33,8 @@ Each of the items in the list have a suggested file where such functionality sho
 - [ ] DBN07 - Create interface for BN parameters learning (BaseParameterLearning.jl)
 - [ ] DBN07A - Implement BN parameters learning algorithms (structureLearning/${Algorithm}.jl)
 - [ ] DBN08 - Create notebook with basic use scenario (examples/basic.ipynb)
+- [ ] DBN AC01 - Set of functions to evaluate consistency through datasets (Stationary test/Markov Condition/)
+
 
 Future:
 * Julia styled documentation
