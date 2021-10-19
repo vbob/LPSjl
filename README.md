@@ -23,17 +23,14 @@ For now, working code is better than reusable code. Refactoring time will come w
 Each of the items in the list have a suggested file where such functionality should be added.
 
 - [ ] DBN01 - Create structure for storing DAGs (DAG.jl)\
-        DAG -> LightGraphs* (https://nbviewer.org/github/JuliaGraphs/JuliaGraphsTutorials/blob/master/DAG-Julia-Pkgs.ipynb)
-
+        DAG -> LightGraphs* (https://nbviewer.org/github/JuliaGraphs/JuliaGraphsTutorials/blob/master/DAG-Julia-Pkgs.ipynb)\
+        DAG: Dictonary {node: node's parents}\
 - [ ] DBN02 - Create structure for storing Conditional Probability Tables (CPT.jl)
 
 - [ ] DBN03 - Create structure for storing Bayesian Networks as DAG as CPT pairs (BayesianNetwork.jl)\
-        BN: Dictonary {nodes: cpt} \
-        nodes [list of nodes], last position indicate destiny, nodes: [a, b] indicate a->b\
-        CPT (matrix or list of list) head of matrix are the parents and rows are the destiny node\
-        it could be used as dataframe? Problem is each edge will be a dataframe
-
-
+        CPT: dataframe\
+        BN: Dictonary {node: CPT} CPT.columns -> node's parent or DAG[node]\
+        
 - [ ] DBN04 - Create functions for basic BN inference (BayesianNetwork.jl)
 - [ ] DBN05 - Create interface for BN scoring (BaseScore.jl)
 - [ ] DBN05A - Implement AIC, WAIC, BIC and BDEu Scores (scores/${ScoreName}.jl)
