@@ -20,7 +20,7 @@ New files and folders are encouraged to be created to provide better responsabil
 
 For now, working code is better than reusable code. Refactoring time will come when all basic functionalities have been implemented.
 
----
+<br/>
 
 ## To do List
 
@@ -52,20 +52,20 @@ Proposed structure DAG: `Dictionary{ node: { parents } }`
 - `Structure: Array{node}`
 - `CPT: DataFrame`
 - `columns(CPT)`: `node.parents`
----
+<br/>
 
 ### Inference
 
 - [ ] DBN04 - Create functions for basic BN inference (`BayesianNetwork.jl`)
 
----
+<br/>
 
 ### Scoring 
 - [ ] DBN05 - Create interface for BN scoring (`BaseScore.jl`)
 
 - [ ] DBN05A - Implement AIC, WAIC, BIC and BDEu Scores (`scores/${ScoreName}.jl`)
 
----
+<br/>
 
 ### Learning 
 
@@ -82,7 +82,7 @@ Proposed structure DAG: `Dictionary{ node: { parents } }`
 
 - [ ] DBN07A - Implement BN parameters learning algorithms (`structureLearning/${Algorithm}.jl`)
 
----
+<br/>
 
 ### Misc
 - [ ] DBN08 - Create notebook with basic use scenario (`examples/basic.ipynb`)
@@ -96,7 +96,7 @@ Proposed structure DAG: `Dictionary{ node: { parents } }`
 - [ ] Implement the order-based search algorithm with network in-degree constraints, as proposed by Teyssier & Koller (2012)
 - [ ] Implemente the Acyclic Selection Ordering-Based Search (ASOBS), proposed by Scanagatta et al. (2015)
 
----
+<br/>
 
 ## Future:
 * Julia styled documentation
