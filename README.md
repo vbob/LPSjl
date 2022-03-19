@@ -20,8 +20,6 @@ New files and folders are encouraged to be created to provide better responsabil
 
 For now, working code is better than reusable code. Refactoring time will come when all basic functionalities have been implemented.
 
-<br/>
-
 ## To do List
 
 Each of the items in the list have a suggested file where such functionality should be added.
