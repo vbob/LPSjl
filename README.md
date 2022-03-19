@@ -45,7 +45,6 @@ Proposed structure DAG: `Dictionary{ node: { parents } }`
 <br/>
 
 **Bayesian Networks**
-
 - [ ] DBN03 - Create structure for storing Bayesian Networks as DAG and CPT pairs
 
 `(BayesianNetwork.jl)`: 
@@ -55,14 +54,12 @@ Proposed structure DAG: `Dictionary{ node: { parents } }`
 <br/>
 
 ### Inference
-
 - [ ] DBN04 - Create functions for basic BN inference (`BayesianNetwork.jl`)
 
 <br/>
 
 ### Scoring 
 - [ ] DBN05 - Create interface for BN scoring (`BaseScore.jl`)
-
 - [ ] DBN05A - Implement AIC, WAIC, BIC and BDEu Scores (`scores/${ScoreName}.jl`)
 
 <br/>
@@ -71,7 +68,6 @@ Proposed structure DAG: `Dictionary{ node: { parents } }`
 
 **Structure**
 - [ ] DBN06 - Create interface for BN structure learning (`BaseStructureLearning.jl`)
-
 - [ ] DBN06A - Implement Hill Climb, PC, Mold and Genetic BN structure learning algorithms (`structureLearning/${Algorithm}.jl`)
 
 <br/>
@@ -79,14 +75,12 @@ Proposed structure DAG: `Dictionary{ node: { parents } }`
 
 **Parameters**
 - [ ] DBN07 - Create interface for BN parameters learning (`BaseParameterLearning.jl`)
-
 - [ ] DBN07A - Implement BN parameters learning algorithms (`structureLearning/${Algorithm}.jl`)
 
 <br/>
 
 ### Misc
 - [ ] DBN08 - Create notebook with basic use scenario (`examples/basic.ipynb`)
-
 - [ ] DBN AC01 - Set of functions to evaluate consistency through datasets\
         - Stationarity Tests\
         - Markov Condition
