@@ -1,11 +1,12 @@
 # LPSjl
 
-[![Build Status](https://travis-ci.com/vitor.barth/LPSjl.jl.svg?branch=main)](https://travis-ci.com/vitor.barth/LPSjl.jl)
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/vitor.barth/LPSjl.jl?svg=true)](https://ci.appveyor.com/project/vitor.barth/LPSjl-jl)
-[![Coverage](https://codecov.io/gh/vitor.barth/LPSjl.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/vitor.barth/LPSjl.jl)
-[![Coverage](https://coveralls.io/repos/github/vitor.barth/LPSjl.jl/badge.svg?branch=main)](https://coveralls.io/github/vitor.barth/LPSjl.jl?branch=main)
+Bayesian Networks Order-based Search changes the paradigm of Bayesian Networks Structure Learning, by looking into the spacing of nodes parents, which demands a time-complexity of <img src="https://render.githubusercontent.com/render/math?math=\color{grey}O(n^k)"> for <img src="https://render.githubusercontent.com/render/math?math=\color{grey}n"> variables, in spite of the traditional Networks Structure space which is a NP-hard problem with superexponential, i.e., <img src="https://render.githubusercontent.com/render/math?math=\color{grey}O(n!2^\binom{n}{2})">, time complexity. 
 
-Library for Dynamic Bayesian Networks in Julia.
+Given the great performance obtained by the Julia Language, seems a natural choice to use it for Bayesian Networks Structure Learning, and in conjunction with [BayesNets.jl](https://sisl.github.io/BayesNets.jl/dev/index.html) improve Julia support for Bayesian Networks-related research.
+
+## Bayesian Networks Structure Learning
+
+For a more in-depth presentation of the Bayesian Networks Structure Learning problem and the relations to this project, see [our docs](https://vbob.github.io/LPSjl.jl/).
 
 <br/>
 
