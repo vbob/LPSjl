@@ -26,7 +26,6 @@ For now, working code is better than reusable code. Refactoring time will come w
 
 Each of the items in the list have a suggested file where such functionality should be added.
 
-<br/>
 
 ### Data Structures
 
@@ -37,12 +36,12 @@ Use [Graphs.jl](https://github.com/JuliaGraphs/Graphs.jl) as reference
 
 Proposed structure DAG: `Dictionary{ node: { parents } }`
 
-<br/>
+
 
 **Probability Tables**
 - [ ] DBN02 - Create structure for storing Conditional Probability Tables (`CPT.jl`)
 
-<br/>
+
 
 **Bayesian Networks**
 - [ ] DBN03 - Create structure for storing Bayesian Networks as DAG and CPT pairs
@@ -51,18 +50,18 @@ Proposed structure DAG: `Dictionary{ node: { parents } }`
 - `Structure: Array{node}`
 - `CPT: DataFrame`
 - `columns(CPT)`: `node.parents`
-<br/>
+
 
 ### Inference
 - [ ] DBN04 - Create functions for basic BN inference (`BayesianNetwork.jl`)
 
-<br/>
+
 
 ### Scoring 
 - [ ] DBN05 - Create interface for BN scoring (`BaseScore.jl`)
 - [ ] DBN05A - Implement AIC, WAIC, BIC and BDEu Scores (`scores/${ScoreName}.jl`)
 
-<br/>
+
 
 ### Learning 
 
@@ -70,14 +69,14 @@ Proposed structure DAG: `Dictionary{ node: { parents } }`
 - [ ] DBN06 - Create interface for BN structure learning (`BaseStructureLearning.jl`)
 - [ ] DBN06A - Implement Hill Climb, PC, Mold and Genetic BN structure learning algorithms (`structureLearning/${Algorithm}.jl`)
 
-<br/>
+
 
 
 **Parameters**
 - [ ] DBN07 - Create interface for BN parameters learning (`BaseParameterLearning.jl`)
 - [ ] DBN07A - Implement BN parameters learning algorithms (`structureLearning/${Algorithm}.jl`)
 
-<br/>
+
 
 ### Misc
 - [ ] DBN08 - Create notebook with basic use scenario (`examples/basic.ipynb`)
@@ -90,7 +89,7 @@ Proposed structure DAG: `Dictionary{ node: { parents } }`
 - [ ] Implement the order-based search algorithm with network in-degree constraints, as proposed by Teyssier & Koller (2012)
 - [ ] Implemente the Acyclic Selection Ordering-Based Search (ASOBS), proposed by Scanagatta et al. (2015)
 
-<br/>
+
 
 ## Future:
 * Julia styled documentation
