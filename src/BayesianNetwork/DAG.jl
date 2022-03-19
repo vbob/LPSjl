@@ -1,6 +1,3 @@
-using LightGraphs
-using DataFrames
-
 """
     DAG
 
@@ -83,3 +80,8 @@ function is_dag(digraph::DiGraph)
         throw("Graph is cyclic")
     end
 end
+
+export 
+    is_dag
+    add_edge!
+    add_node!
