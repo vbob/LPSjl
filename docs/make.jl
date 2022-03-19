@@ -5,11 +5,11 @@ using Graphs
 makedocs(
     sitename = "LPSjl",
     format = Documenter.HTML(),
-    modules = [LPSjl],
+    modules = [LPSjl, LPSjl.ContinuousInference],
     pages = [
         "index.md",
         "structureLearning.md",
-        "API" => "dags.md",
+        "API" => ["dags.md", "continuous.md"]
     ]
 )
 
