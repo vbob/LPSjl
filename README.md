@@ -29,10 +29,8 @@ Each of the items in the list have a suggested file where such functionality sho
 
 **DAGs**
 - [ ] DBN01 - Create structure for storing DAGs (DAG.jl)
-
-Use [Graphs.jl](https://github.com/JuliaGraphs/Graphs.jl) as reference
-
-Proposed structure DAG: `Dictionary{ node: { parents } }`
+    - Use [Graphs.jl](https://github.com/JuliaGraphs/Graphs.jl) as reference
+    - Proposed structure DAG: `Dictionary{ node: { parents } }`
 
 
 
@@ -43,11 +41,10 @@ Proposed structure DAG: `Dictionary{ node: { parents } }`
 
 **Bayesian Networks**
 - [ ] DBN03 - Create structure for storing Bayesian Networks as DAG and CPT pairs
-
-`(BayesianNetwork.jl)`: 
-- `Structure: Array{node}`
-- `CPT: DataFrame`
-- `columns(CPT)`: `node.parents`
+    - `(BayesianNetwork.jl)`: 
+        - `Structure: Array{node}`
+        - `CPT: DataFrame`
+        - `columns(CPT)`: `node.parents`
 
 
 ### Inference
