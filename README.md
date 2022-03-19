@@ -54,8 +54,6 @@ Proposed structure DAG: `Dictionary{ node: { parents } }`
 - `columns(CPT)`: `node.parents`
 ---
 
-<br/>
-
 ### Inference
 
 - [ ] DBN04 - Create functions for basic BN inference (`BayesianNetwork.jl`)
