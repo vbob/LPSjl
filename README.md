@@ -8,8 +8,6 @@ Given the great performance obtained by the Julia Language, seems a natural choi
 
 For a more in-depth presentation of the Bayesian Networks Structure Learning problem and the relations to this project, see [our docs](https://vbob.github.io/LPSjl.jl/).
 
-<br/>
-
 ## How to Contribute
 
 1. Create a new branch with the functionality code
