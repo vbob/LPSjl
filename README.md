@@ -84,6 +84,7 @@ Each of the items in the list have a suggested file where such functionality sho
 - Beinlich, Ingo A., et al. "The ALARM monitoring system: A case study with two probabilistic inference techniques for belief networks." AIME 89. Springer, Berlin, Heidelberg, 1989. 247-256. [Link](http://cs.brown.edu/courses/cs242/assignments/alarmNetwork.pdf)
 - de Campos, Cassio P., et al. "Entropy-based pruning for learning Bayesian networks using BIC." Artificial Intelligence 260 (2018): 42-50. [Link](https://www.sciencedirect.com/science/article/pii/S000437021830167X)
 - Heckerman, David, Dan Geiger, and David M. Chickering. "Learning Bayesian networks: The combination of knowledge and statistical data." Machine learning 20.3 (1995): 197-243. [Link](https://link.springer.com/content/pdf/10.1023/A:1022623210503.pdf)
+- Murphy, Kevin P. Machine learning: a probabilistic perspective. MIT press, 2012. [Link](https://probml.github.io/pml-book/)
 - Neapolitan, Richard E. Learning bayesian networks. Vol. 38. Upper Saddle River: Pearson Prentice Hall, 2004. [Link](http://www.cs.technion.ac.il/~dang/books/Learning%20Bayesian%20Networks(Neapolitan,%20Richard).pdf)
 - Scanagatta, Mauro, Antonio Salmerón, and Fabio Stella. "A survey on Bayesian network structure learning from data." Progress in Artificial Intelligence 8.4 (2019): 425-439. [Link](https://doi.org/10.1007/s13748-019-00194-y)
 - Scanagatta, Mauro, et al. "Approximate structure learning for large Bayesian networks." Machine Learning 107.8 (2018): 1209-1227. [Link](https://doi.org/10.1007/s10994-018-5701-9)
