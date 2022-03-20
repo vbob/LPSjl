@@ -19,7 +19,7 @@ New files and folders are encouraged to be created to provide better responsabil
 
 For now, working code is better than reusable code. Refactoring time will come when all basic functionalities have been implemented.
 
-## To do List
+## To-do List
 
 Each of the items in the list have a suggested file where such functionality should be added.
 
@@ -36,20 +36,14 @@ Each of the items in the list have a suggested file where such functionality sho
 
 **Bayesian Networks**
 - [x] DBN03 - Create structure for storing Bayesian Networks as DAG and CPT pairs
-    - `(BayesianNetwork.jl)`: 
-        - `Structure: Array{node}`
-        - `CPT: DataFrame`
-        - `columns(CPT)`: `node.parents`
-
 
 ### Inference
 - [ ] DBN04 - Create functions for basic BN inference (`BayesianNetwork.jl`)
 
-
 ### Scoring 
 - [ ] DBN05 - Create interface for BN scoring (`BaseScore.jl`)
 - [x] DBN05A - Implement AIC, WAIC, BIC and BDEu Scores (`scores/${ScoreName}.jl`)
-    - **TODO**: Currently in `staging` directory. Has to be cleaned up and inherit the `BaseScore` model yet to be defined.
+    - **To do**: Currently in `staging` directory. Has to be cleaned up and inherit the `BaseScore` model yet to be defined.
     - **Improvement**: Evaluate the usage of [StatsBase.jl](https://juliastats.org/StatsBase.jl/latest/statmodels/) for calculating Bayesian/Akaike Information Criterion (AIC/BIC) for Bayesian networks given the data
 
 ### Learning 
