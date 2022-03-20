@@ -29,19 +29,15 @@ Each of the items in the list have a suggested file where such functionality sho
 ### Data Structures
 
 **DAGs**
-- [ ] DBN01 - Create structure for storing DAGs (DAG.jl)
-    - Use [Graphs.jl](https://github.com/JuliaGraphs/Graphs.jl) as reference
-    - Proposed structure DAG: `Dictionary{ node: { parents } }`
-
-
+- [x] DBN01 - Create structure for storing DAGs (DAG.jl)
+    - TODO: Migrate to [Graphs.jl](https://github.com/JuliaGraphs/Graphs.jl)
 
 **Probability Tables**
-- [ ] DBN02 - Create structure for storing Conditional Probability Tables (`CPT.jl`)
-
-
+- [x] DBN02 - Create structure for storing Conditional Probability Tables (`CPT.jl`)
+    - TODO: Evaluate the performance of current implementation with SparseMatrix and compare to a possible [DataFrames.jl](https://dataframes.juliadata.org/stable/) with missing values.
 
 **Bayesian Networks**
-- [ ] DBN03 - Create structure for storing Bayesian Networks as DAG and CPT pairs
+- [x] DBN03 - Create structure for storing Bayesian Networks as DAG and CPT pairs
     - `(BayesianNetwork.jl)`: 
         - `Structure: Array{node}`
         - `CPT: DataFrame`
@@ -52,21 +48,17 @@ Each of the items in the list have a suggested file where such functionality sho
 - [ ] DBN04 - Create functions for basic BN inference (`BayesianNetwork.jl`)
 
 
-
 ### Scoring 
 - [ ] DBN05 - Create interface for BN scoring (`BaseScore.jl`)
-- [ ] DBN05A - Implement AIC, WAIC, BIC and BDEu Scores (`scores/${ScoreName}.jl`)
-
-
+- [x] DBN05A - Implement AIC, WAIC, BIC and BDEu Scores (`scores/${ScoreName}.jl`)
+    - TODO: Currently in `staging` directory. Has to be cleaned up and inherit the `BaseScore` model yet to be defined.
+    - Evaluate the usage of [StatsBase.jl](https://juliastats.org/StatsBase.jl/latest/statmodels/) for calculating Bayesian/Akaike Information Criterion (AIC/BIC) for Bayesian networks given the data
 
 ### Learning 
 
 **Structure**
 - [ ] DBN06 - Create interface for BN structure learning (`BaseStructureLearning.jl`)
 - [ ] DBN06A - Implement Hill Climb, PC, Mold and Genetic BN structure learning algorithms (`structureLearning/${Algorithm}.jl`)
-
-
-
 
 **Parameters**
 - [ ] DBN07 - Create interface for BN parameters learning (`BaseParameterLearning.jl`)
@@ -81,7 +73,7 @@ Each of the items in the list have a suggested file where such functionality sho
         - Markov Condition
 
 **OBS Algorithm**
-- [ ] Use [StatsBase.jl](https://juliastats.org/StatsBase.jl/latest/statmodels/) for calculating Bayesian/Akaike Information Criterion (AIC/BIC) for Bayesian networks given the data
+
 - [ ] Implement the order-based search algorithm with network in-degree constraints, as proposed by Teyssier & Koller (2012)
 - [ ] Implemente the Acyclic Selection Ordering-Based Search (ASOBS), proposed by Scanagatta et al. (2015)
 
