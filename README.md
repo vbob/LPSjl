@@ -30,11 +30,11 @@ Each of the items in the list have a suggested file where such functionality sho
 
 **DAGs**
 - [x] DBN01 - Create structure for storing DAGs (DAG.jl)
-    - `Improvement`: Migrate to [Graphs.jl](https://github.com/JuliaGraphs/Graphs.jl)
+    - **Improvement**: Migrate to [Graphs.jl](https://github.com/JuliaGraphs/Graphs.jl)
 
 **Probability Tables**
 - [x] DBN02 - Create structure for storing Conditional Probability Tables (`CPT.jl`)
-    - `Improvement`: Evaluate the performance of current implementation with SparseMatrix and compare to a possible [DataFrames.jl](https://dataframes.juliadata.org/stable/) with missing values.
+    - **Improvement**: Evaluate the performance of current implementation with SparseMatrix and compare to a possible [DataFrames.jl](https://dataframes.juliadata.org/stable/) with missing values.
 
 **Bayesian Networks**
 - [x] DBN03 - Create structure for storing Bayesian Networks as DAG and CPT pairs
@@ -51,8 +51,8 @@ Each of the items in the list have a suggested file where such functionality sho
 ### Scoring 
 - [ ] DBN05 - Create interface for BN scoring (`BaseScore.jl`)
 - [x] DBN05A - Implement AIC, WAIC, BIC and BDEu Scores (`scores/${ScoreName}.jl`)
-    - `TODO`: Currently in `staging` directory. Has to be cleaned up and inherit the `BaseScore` model yet to be defined.
-    - `Improvement`: Evaluate the usage of [StatsBase.jl](https://juliastats.org/StatsBase.jl/latest/statmodels/) for calculating Bayesian/Akaike Information Criterion (AIC/BIC) for Bayesian networks given the data
+    - **TODO**: Currently in `staging` directory. Has to be cleaned up and inherit the `BaseScore` model yet to be defined.
+    - **Improvement**: Evaluate the usage of [StatsBase.jl](https://juliastats.org/StatsBase.jl/latest/statmodels/) for calculating Bayesian/Akaike Information Criterion (AIC/BIC) for Bayesian networks given the data
 
 ### Learning 
 
