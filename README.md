@@ -1,7 +1,7 @@
-<center><img src="docs/src/assets/logo.png" alt="drawing" width="200"/>
+<p align="center"><img src="docs/src/assets/logo.png" alt="drawing" width="200"/>
 
 ### Signal Processing Laboratory 
-</center>
+</p>
 
 # Julia Bayesian Networks Library
 
