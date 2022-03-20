@@ -1,4 +1,11 @@
-# LPSjl
+<img src="docs/src/assets/logo.png" alt="drawing" width="200"/>
+
+### Signal Processing Laboratory 
+
+<br/>
+
+# Julia Bayesian Networks Library
+
 
 Bayesian Networks Order-based Search changes the paradigm of Bayesian Networks Structure Learning, by looking into the spacing of nodes parents, which demands a time-complexity of <img src="https://render.githubusercontent.com/render/math?math=\color{grey}O(n^k)"> for <img src="https://render.githubusercontent.com/render/math?math=\color{grey}n"> variables, in spite of the traditional Networks Structure space which is a NP-hard problem with superexponential, i.e., <img src="https://render.githubusercontent.com/render/math?math=\color{grey}O(n!2^\binom{n}{2})">, time complexity. 
 
