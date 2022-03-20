@@ -2,8 +2,6 @@
 
 ### Signal Processing Laboratory 
 
-<br/>
-
 # Julia Bayesian Networks Library
 
 
