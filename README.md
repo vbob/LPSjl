@@ -1,7 +1,6 @@
-<p align="center"><img src="docs/src/assets/logo.png" alt="drawing" width="200"/>
+<img src="docs/src/assets/logo.png" alt="drawing" width="200"/>
 
 ### Signal Processing Laboratory 
-</p>
 
 # Julia Bayesian Networks Library
 
@@ -92,3 +91,4 @@ Each of the items in the list have a suggested file where such functionality sho
 - Scanagatta, Mauro, et al. "Learning Bayesian networks with thousands of variables." Advances in neural information processing systems 28 (2015). [Link](https://proceedings.neurips.cc/paper/2015/file/2b38c2df6a49b97f706ec9148ce48d86-Paper.pdf)
 - Schwarz, Gideon. "Estimating the dimension of a model." The annals of statistics (1978): 461-464. [Link](https://www.jstor.org/stable/pdf/2958889.pdf?casa_token=YrNOrw26kmkAAAAA:TJw26MoLnAeWYeM_kxJ96_C-JYW5fAS2smQkmp-Y-L6-YWthD44MjJqb6nZx1l0sANFhJdf-T4-XoL5Prruop6cNbBPuEsNBZOTp_Ezj79IXGB4jjv2b)
 - Teyssier, Marc, and Daphne Koller. "Ordering-based search: A simple and effective algorithm for learning Bayesian networks." arXiv preprint arXiv:1207.1429 (2012). [Link](https://arxiv.org/pdf/1207.1429)
+
