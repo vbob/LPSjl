@@ -2,7 +2,7 @@
 
 ## Example 1 - Simple Bayesian Network
 
-![Example 1.5](../../images/neapolitan_fig1.5.png)
+![Example 1.5](images/neapolitan_fig1.5.png)
 
 ```julia 
 # Node C
