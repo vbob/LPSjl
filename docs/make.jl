@@ -3,7 +3,7 @@ using LPSjl
 using Graphs
 
 makedocs(
-    sitename = "LPSjl",
+    sitename = "Julia Bayesian Networks Library",
     format = Documenter.HTML(),
     modules = [LPSjl, LPSjl.BayesianNetworks],
     pages = [
