@@ -2,7 +2,9 @@ using Pkg
 Pkg.activate(".")
 
 using LPSjl.BayesianNetworks
+using LPSjl.ParameterLearning
 using SparseArrays
+using DataFrames
 
 """
     Neapolitan, R. Learning Bayesian Networks. Ch. 1, Pg. 36

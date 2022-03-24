@@ -87,7 +87,7 @@ set_parameters!(node::DiscreteNode, parameters::SparseMatrixCSC) =
 """
 mutable struct BayesianNetwork{T}
     V::Vector{T} 
-    E::Vector{Tuple{T}}
+    E::Vector{Tuple{T, T}}
 end
 
 export 

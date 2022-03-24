@@ -5,12 +5,12 @@ using Graphs
 makedocs(
     sitename = "Julia Bayesian Networks Library",
     format = Documenter.HTML(),
-    modules = [LPSjl, LPSjl.BayesianNetworks],
+    modules = [LPSjl, LPSjl.BayesianNetworks, LPSjl.ParameterLearning],
     pages = [
         "index.md",
         "structureLearning.md",
         "Examples" => ["EX_BayesianNetworks.md"],
-        "API" => ["API_BayesianNetworks.md"]
+        "API" => ["API_BayesianNetworks.md", "API_ParameterLearning.md"]
     ]
 )
 
