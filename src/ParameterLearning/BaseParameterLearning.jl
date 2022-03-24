@@ -5,6 +5,9 @@
 # Fields
 - `network::BayesianNetwork`: the network to estimate
 - `data::DataFrame`: the dataset
+
+# Constructors
+- `MaximumLikelihoodEstimator(network::BayesianNetwork, data::DataFrame)`
 """
 struct MaximumLikelihoodEstimator
     data::DataFrame
